@@ -5,7 +5,7 @@ User can watch first lesson for free
 
 Scenario: User can visit the cucumber home page
     Given I am on the cucumber home page
-    Then title should be "Cucumber"
+    Then the title should be "Cucumber"
     
 Scenario: User can visit the cucumber home page
     Given I am on the cucumber home page

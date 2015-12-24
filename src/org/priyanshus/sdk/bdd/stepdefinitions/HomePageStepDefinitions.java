@@ -29,7 +29,6 @@ public class HomePageStepDefinitions {
 
 	@Given("^I am on the cucumber home page$")
 	public void openCucumberApp() {
-		System.out.println(driver);
 		driver.get("https://cucumber.io/");
 	}
 	
@@ -39,7 +38,7 @@ public class HomePageStepDefinitions {
 		visitCucumberSchool();
 	}
 
-	@Then("^title should be \"([^\"]*)\"$")
+	@Then("^the title should be \"([^\"]*)\"$")
 	public void assertTitle(String expectedTitle) {
 		boolean condition = homePage.getTitle().equals(expectedTitle);
 		assertTrue("Title displayed as expected", condition);

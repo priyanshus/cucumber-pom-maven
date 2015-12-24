@@ -34,7 +34,7 @@ public class CucumberSchoolStepDefinitions {
 		assertTrue("Watch first lessor for free button is visible", condition);
 	}
 
-	@Then("^video modal should be visible$")
+	@Then("^the video modal should be visible$")
 	public void assertVideoModalVisibility() {
 		boolean condition = schoolPage.isVideoPlaying();
 		assertTrue("Video modal is visible", condition);
