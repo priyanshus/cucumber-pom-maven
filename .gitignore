@@ -1,0 +1,9 @@
+build.properties
+
+# Generated folders
+bin
+docs
+test-output
+report
+target
+
